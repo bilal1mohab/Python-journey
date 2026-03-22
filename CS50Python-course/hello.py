@@ -1,0 +1,5 @@
+name=print("what's your name? ")
+input()
+print("d", 5+5)
+print('a', 'b', sep= '*', end='\n\n')
+print('a', 'b', sep= '*', end='')
