@@ -71,7 +71,6 @@ def input_float(message:str, values:tuple = None, no_negative:bool = False, no_z
             break
     return ans
 
-
 def input_choice(message:str, values:tuple = ("Yes", "No"), first_letter= False, case_sensitive=False, numeric=False)->str:
     ans = None
     repeat = ""
